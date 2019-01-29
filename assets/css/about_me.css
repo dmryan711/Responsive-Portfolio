@@ -1,0 +1,68 @@
+/* CSS Specific to Page*/
+img{
+    
+    position: relative;
+    float:left;
+    margin: 0px 10px 0px 10px;
+    max-width: 175px;
+    max-height: 200px;
+    height: 100%;
+    width:100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
+    font-style:bold;
+}
+
+@media screen and (max-width:980px){
+    #content-title-container{
+        background-color:blue;
+        font-size:3px;
+        width:100%;
+        justify-content: center;
+        
+    }
+
+    #content-title{
+        justify-content: center;
+        align-self: center;
+    }
+
+    #content-container{
+        background-color:blue;
+        width:90% !important;
+        height: calc(100vh - 200px);
+    }
+
+    #content{
+        font-size:small;
+        flex-flow:row wrap !important;
+    }
+
+    img{
+        width: 130px;
+        height:150px;
+    }
+    
+    #page-title{
+        /* font-size:18px !important; */
+    }
+}
+
+@media screen and (max-width:768px){
+    #content-container{
+        background-color:orange;
+    }
+}
+
+@media screen and (max-width:640px){
+    #content-container{
+        background-color:red;
+
+    }
+    #page-title{
+        font-size:18px !important; 
+    }
+} 

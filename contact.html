@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Some placeholder JS-->
+        <script type="text/javascript">
+            function submitClick()
+            {
+            alert("Your information has been sent to the president, thank you");
+            }
+        </script>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" href = "assets/css/style.css"/>
+    <link rel="stylesheet" href = "assets/css/contact.css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+<body>
+    <!--MAIN CONTAINER-->
+    <div id = "main-container">
+        <!--HEADER-->
+        <header id = "header-container">
+             <div id="header-content-container">
+                <!--NAME-->
+                <div id="name">
+                    <p>Devon Ryan</p> 
+                </div>
+                
+                <!--NAVIGATION-->
+                <ul id="nav">
+                    <a href="index.html"><li class="nav-item">About</li></a>
+                    <li>|</li>
+                    <a href="portfolio.html"><li class="nav-item">Portfolio</li></a>
+                    <li>|</li>
+                    <a href="contact.html"><li class="nav-item">Contact</li></a>
+                </ul>
+            </div>
+        </header>
+
+        <!--BODY CONTAINER-->
+        <section id="body-container">
+            <div id="content-container">
+                <div id="content-title-container">
+                    <div id="content-title">
+                        <p>Contact</p>
+                    </div>
+                    <div id="content-border"></div>
+                </div>
+                <ul id="content-body">
+                    <li class="input-label-row">
+                        <label for="content-name">Name</label>
+                    </li>
+                    <li class="input-field-row">
+                        <input type="text" id="content-name" placeholder="John Doeboy"/>
+                    </li>
+                    <li class="input-label-row">
+                            <label for="content-email">Email</label>
+                    </li>
+                    <li class="input-field-row">
+                            <input type="email" id="content-email" placeholder="example@gmail.com"/>
+                    </li>
+                    <li class="input-label-row">
+                            <label for="content-message">Message</label>
+                    </li>
+                    <li class="input-field-row" id="messageFieldLine">
+                            <textarea  id="content-message"></textarea>
+                     </li>
+                     <li class="input-label-row" id="buttonFieldLine">
+                            <button type="submit" onclick="submitClick()">Submit</button>
+                     </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+             <p>Copyright © </p>
+        </footer>
+
+
+    </div>
+    
+
+    
+</body>
+</html>
+
+
